@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:background="@drawable/background"
+        >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="338dp"
+        android:layout_height="115dp"
+        android:text="are you sure you want to exit?"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/btnDialogSave"
+        android:layout_width="348dp"
+        android:layout_height="74dp"
+
+        android:layout_margin="20dp"
+        android:backgroundTint="#E41243"
+        android:text="Yes" />
+
+    <Button
+        android:id="@+id/btnDialogCancel"
+        android:layout_width="352dp"
+        android:layout_height="72dp"
+
+        android:layout_margin="20dp"
+        android:backgroundTint="#E41243"
+        android:text="No" />
+
+    </LinearLayout>
